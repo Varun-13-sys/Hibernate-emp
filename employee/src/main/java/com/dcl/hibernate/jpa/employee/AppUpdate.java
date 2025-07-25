@@ -24,7 +24,7 @@ public class AppUpdate {
 			et.commit();
 			System.out.println("Updated the Salary");
 		} else
-			System.out.println("Not Updated ");
+			System.out.println("Salary Not Updated ");
 		em.close();
 		scan.close();
 	}
